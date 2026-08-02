@@ -7,7 +7,7 @@ int main()
     printf("Enter a natural number: ");
     scanf("%d", &n);
 
-    for (i = 1; i <= n; i++)
+    for (i = 1; i <= n; i=i+2)
     {
         sum = sum + i;
     }
